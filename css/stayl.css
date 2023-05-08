@@ -48,15 +48,26 @@ ul {
     color: var(--color-light);
 }
 
+.list{
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+
 .link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
     text-decoration: none;
     color: var(--color-dark)
 }
 
-.link:active {
+.link:hover,
+.link:focus {
     color: var(--color-pressed-state);
 }
 
@@ -67,7 +78,8 @@ ul {
     color: var(--color-dark);
 }
 
-.link-contact:active {
+.link-contact:hover,
+.link-contact:focus {
     color: var(--color-pressed-state);
 }
 
@@ -85,6 +97,7 @@ ul {
 }
 
 .button {
+    font-family: Roboto,sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: var(--color-white-background);
