@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-primary-brand: #4D5AE5;
     --color-pressed-state: #404BBF;
     --color-dark: #2E2F42;
@@ -17,7 +17,7 @@
 body {
     color: var(--color-text);
     background-color: var(--color-white-background);
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -48,7 +48,7 @@ ul {
     color: var(--color-light);
 }
 
-.list{
+.list {
     list-style: none;
     font-weight: 500;
     font-size: 16px;
@@ -71,11 +71,16 @@ ul {
     color: var(--color-pressed-state);
 }
 
+.contact {
+    font-style: normal;
+}
+
 .link-contact {
     text-align: right;
     font-style: normal;
     text-decoration: none;
-    color: #434455}
+    color: #434455
+}
 
 .link-contact:hover,
 .link-contact:focus {
@@ -96,7 +101,7 @@ ul {
 }
 
 .button {
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: var(--color-white-background);
@@ -117,9 +122,10 @@ ul {
 
 .digital {}
 
-.digital-list{}
+.digital-list {}
 
 .digital-title {
+    line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
     font-size: 20px;
@@ -131,7 +137,7 @@ ul {
     color: var(--color-text);
 }
 
-.work{}
+.work {}
 
 .title {
     color: var(--color-dark);
@@ -140,9 +146,10 @@ ul {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
-.work-list{}
+.work-list {}
 
 .staff {
     background-color: var(--color-light);
@@ -178,7 +185,8 @@ ul {
 /* portfolio */
 
 .filter-button {
-    font-family: Roboto,sans-serif;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
     background-color: var(--color-light);
     color: var(--color-primary-brand);
     font-size: 16px;
@@ -205,7 +213,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--color-dark);
+    color: #2E2F42;
 
 }
 
@@ -213,5 +221,5 @@ ul {
     color: var(--color-text);
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-text);
+    letter-spacing: 0.02em;
 }
