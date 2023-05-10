@@ -204,9 +204,6 @@ ul {
     color: var(--color-white-background);
 }
 
-.project {
-    border: 1px solid var(--color-accent);
-}
 
 .project-name {
     font-weight: 500;
