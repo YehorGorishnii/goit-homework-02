@@ -75,8 +75,7 @@ ul {
     text-align: right;
     font-style: normal;
     text-decoration: none;
-    color: var(--color-dark);
-}
+    color: #434455}
 
 .link-contact:hover,
 .link-contact:focus {
