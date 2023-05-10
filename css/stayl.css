@@ -17,6 +17,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--color-text);
+    background-color: var(--color-white-background);
 }
 
 .logo {
@@ -50,7 +51,7 @@ body {
 }
 
 .title-header{
-    font-style: 56px;
+    font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -105,7 +106,7 @@ body {
 
 .staff-background{
     background-color: var(--color-white-background);
-    
+
 
 }
 /* Portfolio */
